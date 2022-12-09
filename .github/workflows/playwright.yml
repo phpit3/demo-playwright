@@ -22,4 +22,4 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test --project=chromium
     - name: Run yatt-pipe
-      run: npx yatt-pipe -c creds.json -s results.xml -T junit -t yatt -p
+      run: ./yatt-pipe-linux -c creds.json -s results.xml -T junit -t yatt -p
